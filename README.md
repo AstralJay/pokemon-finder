@@ -6,6 +6,11 @@ A sleek, responsive web application that lets you search any Pokémon by name an
 
 
 ---
+# 🪳Alpha 0.0.2 Patch Notes🪳
+
+Hotfix to add and display Pokemon **Forms**, since pokemon with forms(eg- Aegislash) did not work.
+Fixed display related bugs.
+
 
 ## 🌟 Features
 
@@ -20,6 +25,10 @@ A sleek, responsive web application that lets you search any Pokémon by name an
 
 * ✨ **Abilities Section**
   Categorises and displays **Normal** and **Hidden Abilities**, with type-colored headers and formatted names.
+  
+* ✨ **Forms Section**
+  Categorises and displays Pokemon forms including Gigantamax, Mega etc.
+
 
 * 📊 **Animated Stat Bars**
   View base stats (HP, Attack, Defense, Sp. Atk, Sp. Def, Speed) as animated bars with intuitive color-coding:
@@ -61,7 +70,7 @@ A sleek, responsive web application that lets you search any Pokémon by name an
 
 ## 📁 Project Structure
 
-```
+```bash
 📦 pokemon-finder
 ├── index.html
 ├── style.css
