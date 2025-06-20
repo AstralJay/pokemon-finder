@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/svg+xml" href="pokeball.png" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Pokemon Finder</title>
@@ -12,15 +11,20 @@
   <div id="search">
     <input type="text" id="pokemonName" placeholder="Enter Pokemon name" />
     <button onclick="fetchData()">Search Pokemon</button>
-  </div><br>
-  <div id="pokemon">
-    <h3 id="pokemonNameDisplay" style="display:none"></h3>
-    <img src="" alt="pokemon sprite" id="pokemonSprite" style="display:none" />
-    <div id="pokemonTypes" style="display:none"></div>
-    <div id="pokemonAbilities" style="display:none"></div>
-    <div id="pokemonStats" style="display:none"></div>
+  </div><br><br>
+  <div id="pokemon" style="display:none">
+    <div id="pokemonLeft">
+      <h3 id="pokemonNameDisplay" style="display:none"></h3>
+      <img src="" alt="pokemon sprite" id="pokemonSprite" style="display:none" />
+      <div id="pokemonTypes" style="display:none"></div>
+      <div id="pokemonAbilities" style="display:none"></div>
+      <div id="pokemonStats" style="display:none"></div>
+    </div>
+    <div id="pokemonRight">
+      <div id="pokemonForms" style="margin-top: 10px;"></div>
+    </div>
   </div>
-  <h4>by Astral Jay</h4>
+  <h4 id="errorMessage"></h4>
   <script src="index.js"></script>
 </body>
 </html>
