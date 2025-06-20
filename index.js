@@ -1,6 +1,12 @@
 async function fetchData() {
     try {
       const inputName = document.getElementById("pokemonName").value.toLowerCase().trim();
+      if (inputName == "niha") /*if you know you know*/{
+        const errorMessage = document.getElementById("errorMessage");
+        errorMessage.textContent = "I love you so much ♡";
+        errorMessage.style.color = "pink";
+        return;
+      }
       const speciesResponse = await fetch(`https://pokeapi.co/api/v2/pokemon-species/${inputName}`);
       if (!speciesResponse.ok) throw new Error("Pokémon species not found");
   
