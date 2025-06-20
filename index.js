@@ -93,7 +93,7 @@ async function fetchData() {
   
     data.types.forEach(t => {
       const span = document.createElement("span");
-      span.textContent = t.type.name;
+      span.textContent = t.type.name.charAt(0).toUpperCase() + t.type.name.slice(1);
       span.classList.add("type-pill");
       span.style.backgroundColor = getTypeColor(t.type.name);
       typesDiv.appendChild(span);
