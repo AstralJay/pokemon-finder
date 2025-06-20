@@ -1,6 +1,6 @@
 
 
-# 🧬 Pokémon Finder 🕹️
+# 🧬 Pokémon Finder Alpha 0.0.2🕹️
 
 A sleek, responsive web application that lets you search any Pokémon by name and instantly view its **sprite**, **types**, **abilities**, and **base stats** — complete with **animated, color-coded stat bars** and a beautifully themed interface.
 
