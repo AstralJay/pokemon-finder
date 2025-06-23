@@ -98,5 +98,3 @@ Fixed display related bugs.
 MIT License © 2025 \AstralJay
 
 ---
-
-Let me know if you'd like this in `README.md` format or want a badge-filled version!
