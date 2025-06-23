@@ -81,6 +81,10 @@ Fixed display related bugs.
 ---
 
 ## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/7dda277a-a52f-478a-aff0-080a43cfd11c)
+![image](https://github.com/user-attachments/assets/f13e0017-2ae5-4368-8ee5-2329252cd5c0)
+
+
 
 
 ## 📝 Future Enhancements
